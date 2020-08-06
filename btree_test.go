@@ -138,7 +138,7 @@ func ExampleBTree() {
 	fmt.Println("replace100:", tr.ReplaceOrInsert(Int(100)))
 	fmt.Println("min:       ", tr.Min())
 	fmt.Println("delmin:    ", tr.DeleteMin())
-	fmt.Println("max:       ", tr.Max())
+	fmt.Println("max:      ", tr.Max())
 	fmt.Println("delmax:    ", tr.DeleteMax())
 	fmt.Println("len:       ", tr.Len())
 	// Output:
